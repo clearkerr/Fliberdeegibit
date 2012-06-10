@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA50AD1158469B8004C2E51 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DDA50AD0158469B8004C2E51 /* main.c */; };
+		DDA50AD3158469B8004C2E51 /* Fliberdeegibit.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDA50AD2158469B8004C2E51 /* Fliberdeegibit.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDA50ACA158469B8004C2E51 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				DDA50AD3158469B8004C2E51 /* Fliberdeegibit.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDA50ACC158469B8004C2E51 /* Fliberdeegibit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fliberdeegibit; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA50AD0158469B8004C2E51 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DDA50AD2158469B8004C2E51 /* Fliberdeegibit.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Fliberdeegibit.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA50AC9158469B8004C2E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA50AC1158469B8004C2E51 = {
+			isa = PBXGroup;
+			children = (
+				DDA50ACF158469B8004C2E51 /* Fliberdeegibit */,
+				DDA50ACD158469B8004C2E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA50ACD158469B8004C2E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA50ACC158469B8004C2E51 /* Fliberdeegibit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA50ACF158469B8004C2E51 /* Fliberdeegibit */ = {
+			isa = PBXGroup;
+			children = (
+				DDA50AD0158469B8004C2E51 /* main.c */,
+				DDA50AD2158469B8004C2E51 /* Fliberdeegibit.1 */,
+			);
+			path = Fliberdeegibit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA50ACB158469B8004C2E51 /* Fliberdeegibit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA50AD6158469B8004C2E51 /* Build configuration list for PBXNativeTarget "Fliberdeegibit" */;
+			buildPhases = (
+				DDA50AC8158469B8004C2E51 /* Sources */,
+				DDA50AC9158469B8004C2E51 /* Frameworks */,
+				DDA50ACA158469B8004C2E51 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fliberdeegibit;
+			productName = Fliberdeegibit;
+			productReference = DDA50ACC158469B8004C2E51 /* Fliberdeegibit */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA50AC3158469B8004C2E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DDA50AC6158469B8004C2E51 /* Build configuration list for PBXProject "Fliberdeegibit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDA50AC1158469B8004C2E51;
+			productRefGroup = DDA50ACD158469B8004C2E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA50ACB158469B8004C2E51 /* Fliberdeegibit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA50AC8158469B8004C2E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA50AD1158469B8004C2E51 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDA50AD4158469B8004C2E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDA50AD5158469B8004C2E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDA50AD7158469B8004C2E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDA50AD8158469B8004C2E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA50AC6158469B8004C2E51 /* Build configuration list for PBXProject "Fliberdeegibit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA50AD4158469B8004C2E51 /* Debug */,
+				DDA50AD5158469B8004C2E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA50AD6158469B8004C2E51 /* Build configuration list for PBXNativeTarget "Fliberdeegibit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA50AD7158469B8004C2E51 /* Debug */,
+				DDA50AD8158469B8004C2E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA50AC3158469B8004C2E51 /* Project object */;
+}
