@@ -92,7 +92,9 @@
 		DDA50AC3158469B8004C2E51 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Flib;
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Sh-Bang! Inc";
 			};
 			buildConfigurationList = DDA50AC6158469B8004C2E51 /* Build configuration list for PBXProject "Fliberdeegibit" */;
 			compatibilityVersion = "Xcode 3.2";
